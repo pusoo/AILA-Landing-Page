@@ -20,9 +20,9 @@ function App() {
       <div id="features">
         <Features />
       </div>
-      <div id="pricing">
+      {/* <div id="pricing">
         <Pricing />
-      </div>
+      </div> */}
       <div id="team">
         <Team />
       </div>
