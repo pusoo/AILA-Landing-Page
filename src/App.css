@@ -1,0 +1,122 @@
+/* 
+
+section 1 bg:
+background: linear-gradient(113.9deg, #024264 0%, #0485CA 83.46%);
+
+section 3 bg:
+background: radial-gradient(70.98% 70.97% at 50% 41.92%, #40A9E8 0%, #024264 100%);
+
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #024264;
+  --secondary-color: #0485ca;
+  --accent-color: #4db571;
+  --text: #333333;
+  --footer-bg: #00263a;
+  /* Fonts */
+  --black: 900;
+  --medium: 500;
+  --bold: 700;
+  --semibold: 600;
+  /* Font family */
+  --roboto: "Roboto", sans-serif;
+  --inter: "Inter", sans-serif;
+  --lexend-deca: "Lexend Deca", sans-serif;
+}
+
+body {
+  color: var(--text);
+}
+
+nav ul li {
+  font-family: var(--roboto);
+  font-weight: var(--medium);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 32px;
+  font-weight: var(--bold);
+}
+
+/* SECTION 1 */
+
+#hero {
+  background: linear-gradient(113.9deg, #024264 0%, #0485ca 83.46%);
+  color: #ffffff;
+}
+
+.column-6 h1 {
+  font-family: var(--lexend-deca);
+  font-weight: var(--bold);
+}
+
+.column-6 p {
+  font-family: var(--inter);
+}
+
+.hero-btn button {
+  font-weight: var(--semibold);
+}
+
+/* SECTION 2 */
+
+.section-title {
+  /* Unlock the Future of Learning with AILA */
+  font-family: var(--roboto);
+  font-weight: var(--bold);
+  font-size: 1.94rem;
+  margin-bottom: 0.48em;
+}
+
+.section-desc {
+  font-family: var(--inter);
+  width: 85ch;
+  margin-bottom: 3.125em;
+}
+
+/* SECTION 3 */
+
+#features {
+  background: radial-gradient(
+    70.98% 70.97% at 50% 41.92%,
+    #40a9e8 0%,
+    #024264 100%
+  );
+  color: #ffffff;
+}
+
+.feature-title {
+  font-family: var(--roboto);
+  font-weight: var(--semibold);
+  text-transform: uppercase;
+}
+
+/* SECTION 3 */
+
+.team-desc {
+  font-family: var(--inter);
+}
+
+footer {
+  background-color: var(--footer-bg);
+  color: #ffffff;
+}
+
+/* FOOTER */
+
+.email-btn {
+  background-color: var(--accent-color);
+}
