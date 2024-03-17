@@ -24,7 +24,7 @@ const Banner = () => {
   };
 
   return (
-    <div className="column-12 flex flex-col justify-between items-center gap-2 sm:flex-row md:mt-5">
+    <div className="column-12 flex flex-col justify-between items-center gap-2 sm:flex-row md:mt-5 md:gap-7">
       <div className="column-6 ml-0 max-w-[40em] w-full p-8 sm:ml-14 sm:w-7/12 sm:p-0 md:ml-6 lg:ml-14">
         <h1 className="mb-7 text-4xl leading-snug text-center sm:mb-10 sm:text-left md:mb-3 lg:text-6xl lg:mb-10">
           Simplify Learning with AILA!

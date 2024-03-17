@@ -12,7 +12,7 @@ const Commercial = () => {
         journey.
       </p>
       <video
-        className="rounded-lg shadow-2xl -mb-24 w-full sm:w-7/12 sm:-mb-48 md:w-9/12 md:-mb-30"
+        className="rounded-lg shadow-2xl -mb-24 w-full sm:w-7/12 sm:-mb-48 md:w-6/12 md:-mb-30"
         controls
         poster={Preview}
       >

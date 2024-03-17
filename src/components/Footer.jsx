@@ -13,7 +13,7 @@ const Footer = () => {
             study materials.
           </p>
         </div>
-        <div className="w-full flex flex-col justify-center items-center sm:w-3/12 sm:items-start md:justify-start">
+        <div className="w-full flex flex-col justify-center items-center sm:w-2/12 sm:items-start md:justify-start">
           <p className="text-2xl uppercase font-semibold mb-3.5">quick link</p>
           <ul className="flex flex-row gap-5 sm:flex-col sm:gap-0">
             <div className="text-center sm:text-left">
