@@ -1,3 +1,9 @@
+// Track viewers
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+import ReactGA from 'react-ga';
+ReactGA.initialize('G-EZQTKQPERD');
+
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Banner from "./pages/Banner";
@@ -8,6 +14,16 @@ import Team from "./pages/Team";
 import Footer from "./components/Footer";
 
 function App() {
+   useEffect(() => {
+    ReactGA.initialize('G-EZQTKQPERD'); 
+  }, []);
+
+  // Track page views
+  const location = useLocation();
+  useEffect(() => {
+    ReactGA.pageview(location.pathname + location.search);
+  }, [location]);
+
   return (
     <>
       <div id="hero">
