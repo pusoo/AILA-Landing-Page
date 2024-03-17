@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="flex flex-col gap-7 pb-8 sm:flex-row md:gap-5 lg:items-start">
         <div className="w-full flex flex-col justify-center items-center gap-3.5 sm:w-6/12 sm:items-start">
           <p className="font-bold text-3xl">AILA</p>
-          <p>
+          <p className="text-center md:text-left">
             Your Ultimate Learning Companion: Empowering learners with
             simplified content, interactive chatbot assistance, and customizable
             study materials.
@@ -43,7 +43,7 @@ const Footer = () => {
           </div>
           <div className="flex items-center bg-white py-1 pl-4 pr-1 rounded-md w-full max-w-80">
             <input
-              className="rounded-md bg-transparent w-full focus:outline-none text-black"
+              className="rounded-md bg-transparent w-full focus:outline-none text-black h-10 md:h-full"
               type="email"
               name=""
               id=""
@@ -57,7 +57,7 @@ const Footer = () => {
       </div>
       <div className="flex justify-center items-center gap-2 border-t p-5">
         <AiFillCopyrightCircle />
-        <p>Copyright 2024 AILA. All Rights Reserved.</p>
+        <p className="text-xs md:text-base">Copyright 2024 AILA. All Rights Reserved.</p>
       </div>
     </footer>
   );

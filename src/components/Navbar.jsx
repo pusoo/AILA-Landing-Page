@@ -7,12 +7,15 @@ import { RiTeamFill } from "react-icons/ri";
 
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
+  const closeMobileMenu = () => {
+    setIsNavOpen(false);
+  };
 
   return (
     <nav>
       <section className="MOBILE-MENU flex justify-end pt-8 px-8 lg:hidden">
         <div
-          className="HAMBURGER-ICON space-y-2"
+          className="HAMBURGER-ICON space-y-2 cursor-pointer"
           onClick={() => setIsNavOpen((prev) => !prev)}
         >
           <span className="block h-0.5 w-8 bg-white"></span>
@@ -22,7 +25,7 @@ const Navbar = () => {
 
         <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
           <div
-            className="CROSS-ICON absolute top-0 right-0 px-8 py-8"
+            className="CROSS-ICON absolute top-0 right-0 px-8 py-8 cursor-pointer"
             onClick={() => setIsNavOpen(false)}
           >
             <svg
@@ -39,14 +42,17 @@ const Navbar = () => {
             </svg>
           </div>
           <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-center py-10">
-            <li className="border-b border-gray-400 my-3 uppercase">
-              <a href="/about">About</a>
+            <li className="border-b border-gray-400 my-3 uppercase" onClick={closeMobileMenu}>
+              <a href="#">Home</a>
             </li>
-            <li className="border-b border-gray-400 my-3 uppercase">
-              <a href="/portfolio">Portfolio</a>
+            <li className="border-b border-gray-400 my-3 uppercase" onClick={closeMobileMenu}>
+              <a href="#features">Features</a>
             </li>
-            <li className="border-b border-gray-400 my-3 uppercase">
-              <a href="/contact">Contact</a>
+            <li className="border-b border-gray-400 my-3 uppercase" onClick={closeMobileMenu}>
+              <a href="#pricing">Pricing</a>
+            </li>
+            <li className="border-b border-gray-400 my-3 uppercase" onClick={closeMobileMenu}>
+              <a href="#team">Our Team</a>
             </li>
           </ul>
         </div>
