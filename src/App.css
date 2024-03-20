@@ -125,7 +125,56 @@ nav ul li {
   text-transform: uppercase;
 }
 
-/* SECTION 3 */
+/* SECTION 4 */
+
+.price-card-bg {
+  background: linear-gradient(190.84deg, #2599d6 -0.61%, #035682 98.5%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.price-card {
+  /* position: relative; */
+  /* background: linear-gradient(190.84deg, #2599d6, #035682); */
+  /* overflow: hidden; */
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5); */
+}
+
+.trial-tag,
+.starter-tag,
+.popular-tag,
+.exclusive-tag {
+  position: absolute;
+  top: 23px;
+  right: -140px;
+  color: #ffff;
+  transform: rotate(46deg);
+}
+
+.trial-tag {
+  background: linear-gradient(100deg, #b6ac53 0.68%, #0a81c0 99.81%);
+}
+
+.starter-tag {
+  background: linear-gradient(100deg, #1de4ff 0.68%, #0a81c0 99.81%);
+}
+
+.popular-tag {
+  background: linear-gradient(100deg, #760389 0.68%, #0a81c0 99.81%);
+}
+
+.exclusive-tag {
+  background: linear-gradient(100deg, #FF0120 0.68%, #0A81C0 99.81%);
+}
+
+.price-button {
+  background: linear-gradient(190.84deg, #2599d6 -0.61%, #035682 98.5%);
+}
+
+.pricing-month {
+  background: linear-gradient(180deg, #2843cd 0%, #32b2fa 100%);
+}
+
+/* SECTION 5 */
 
 .team-desc {
   font-family: var(--inter);
