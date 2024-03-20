@@ -5,15 +5,15 @@ import robot2 from "../assets/robot2.png";
 const Pricing = () => {
   return (
     <div className="pt-14">
-      <p className="section-title text-center text-2xl w-10/12 sm:text-3xl sm:w-full">
+      <p className="section-title text-center text-2xl sm:text-3xl sm:w-full">
         AILA AWESOME OFFERS
       </p>
-      <div className="grid grid-cols-1 gap-5 pt-5 px-10 -mb-3 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-        <div className="price-card-bg relative overflow-hidden rounded-3xl h-[485px] sm:h-[535px] md:h-[495px] xl:h-[535px]">
-          <div className="trial-tag py-2 text-sm w-full text-center sm:top-6 sm:-right-[95px] md:top-5 md:-right-[130px] lg:top-5 lg:-right-[115px] xl:top-6 xl:-right-[105px] 2xl:top-5 2xl:-right-[135px]">
-            <p>Trial pack</p>
+      <div className="grid grid-cols-1 gap-5 pt-5 px-10 -mb-3 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
+        <div className="relative price-card-bg rounded-3xl h-[485px] sm:h-[535px] md:h-[495px] lg:h-[545px] xl:h-[535px]">
+          <div className="trial-tag absolute overflow-hidden top-0 right-0 h-36 w-36">
+            <span className="absolute w-52 py-2 top-5 -right-16 text-white text-center rotate-45 text-sm">Trial pack</span>
           </div>
-          <div className="bg-white text-[#333333] flex flex-col justify-between items-center text-center m-2 p-7 rounded-3xl h-[470px] sm:h-[520px] md:h-[480px] xl:h-[520px]">
+          <div className="bg-white text-[#333333] flex flex-col justify-between items-center text-center m-2 p-7 rounded-3xl h-[470px] sm:h-[520px] md:h-[480px] lg:h-[530px] xl:h-[520px]">
             <div className="flex flex-col gap-2">
               <div className="flex flex-col justify-center items-center">
                 <p className="font-semibold">Trial offer</p>
@@ -48,11 +48,11 @@ const Pricing = () => {
             </button>
           </div>
         </div>
-        <div className="price-card-bg relative overflow-hidden rounded-3xl h-[485px] sm:h-[535px] md:h-[495px] xl:h-[535px]">
-          <div className="starter-tag py-2 text-sm w-full text-center sm:top-6 sm:-right-[95px] md:top-5 md:-right-[130px] lg:top-5 lg:-right-[115px] xl:top-6 xl:-right-[105px] 2xl:top-5 2xl:-right-[135px]">
-            <p>Starter pack</p>
+        <div className="price-card-bg relative overflow-hidden rounded-3xl h-[485px] sm:h-[535px] md:h-[495px] lg:h-[545px] xl:h-[535px]">
+          <div className="starter-tag absolute overflow-hidden top-0 right-0 h-36 w-36">
+            <span className="absolute w-52 py-2 top-5 -right-16 text-white text-center rotate-45 text-sm">Starter pack</span>
           </div>
-          <div className="bg-white text-[#333333] flex flex-col justify-between items-center text-center m-2 p-7 rounded-3xl h-[470px] sm:h-[520px] md:h-[480px] xl:h-[520px]">
+          <div className="bg-white text-[#333333] flex flex-col justify-between items-center text-center m-2 p-7 rounded-3xl h-[470px] sm:h-[520px] md:h-[480px] lg:h-[530px] xl:h-[520px]">
             <div className="flex flex-col justify-center items-center">
               <p className="font-semibold">Basic offer</p>
               <p className="text-sm">
@@ -93,11 +93,11 @@ const Pricing = () => {
             </button>
           </div>
         </div>
-        <div className="price-card-bg relative overflow-hidden rounded-3xl h-[485px] sm:h-[535px] md:h-[495px] xl:h-[535px]">
-          <div className="popular-tag py-2 text-sm w-full text-center sm:top-6 sm:-right-[95px] md:top-5 md:-right-[130px] lg:top-5 lg:-right-[115px] xl:top-6 xl:-right-[105px] 2xl:top-5 2xl:-right-[135px]">
-            <p>Popular pack</p>
+        <div className="price-card-bg relative overflow-hidden rounded-3xl h-[485px] sm:h-[535px] md:h-[495px] lg:h-[545px] xl:h-[535px]">
+          <div className="popular-tag absolute overflow-hidden top-0 right-0 h-36 w-36">
+            <span className="absolute w-52 py-2 top-5 -right-16 text-white text-center rotate-45 text-sm">Popular pack</span>
           </div>
-          <div className="bg-white text-[#333333] flex flex-col justify-between items-center text-center m-2 p-7 rounded-3xl h-[470px] sm:h-[520px] md:h-[480px] xl:h-[520px]">
+          <div className="bg-white text-[#333333] flex flex-col justify-between items-center text-center m-2 p-7 rounded-3xl h-[470px] sm:h-[520px] md:h-[480px] lg:h-[530px] xl:h-[520px]">
             <div className="flex flex-col justify-center items-center">
               <p className="font-semibold">Premium offer</p>
               <p className="text-sm">
@@ -139,11 +139,11 @@ const Pricing = () => {
             </button>
           </div>
         </div>
-        <div className="price-card-bg relative overflow-hidden rounded-3xl h-[485px] sm:h-[535px] md:h-[495px] xl:h-[535px]">
-          <div className="exclusive-tag py-2 text-sm w-full text-center sm:top-6 sm:-right-[95px] md:top-5 md:-right-[130px] lg:top-5 lg:-right-[115px] xl:top-6 xl:-right-[105px] 2xl:top-5 2xl:-right-[135px]">
-            <p>Exclusive pack</p>
+        <div className="price-card-bg relative overflow-hidden rounded-3xl h-[485px] sm:h-[535px] md:h-[495px] lg:h-[545px] xl:h-[535px]">
+          <div className="exclusive-tag absolute overflow-hidden top-0 right-0 h-36 w-36">
+            <span className="absolute w-52 py-2 top-5 -right-16 text-white text-center rotate-45 text-sm">Exclusive pack</span>
           </div>
-          <div className="bg-white text-[#333333] flex flex-col justify-between items-center text-center m-2 p-7 rounded-3xl h-[470px] sm:h-[520px] md:h-[480px] xl:h-[520px]">
+          <div className="bg-white text-[#333333] flex flex-col justify-between items-center text-center m-2 p-7 rounded-3xl h-[470px] sm:h-[520px] md:h-[480px] lg:h-[530px] xl:h-[520px]">
             <div className="flex flex-col justify-center items-center">
               <p className="font-semibold">Grand offer</p>
               <p className="text-sm">

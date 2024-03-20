@@ -49,7 +49,7 @@ body {
   position: absolute;
   width: 100%;
   top: 0;
-  left: 0;
+  right: 0;
   background: white;
   color: var(--text);
   z-index: 10;
@@ -143,26 +143,27 @@ nav ul li {
 .starter-tag,
 .popular-tag,
 .exclusive-tag {
-  position: absolute;
-  top: 23px;
-  right: -140px;
-  color: #ffff;
-  transform: rotate(46deg);
 }
 
-.trial-tag {
+.trial-tag span,
+.starter-tag span,
+.popular-tag span,
+.exclusive-tag span {
+}
+
+.trial-tag span {
   background: linear-gradient(100deg, #b6ac53 0.68%, #0a81c0 99.81%);
 }
 
-.starter-tag {
+.starter-tag span {
   background: linear-gradient(100deg, #1de4ff 0.68%, #0a81c0 99.81%);
 }
 
-.popular-tag {
+.popular-tag span {
   background: linear-gradient(100deg, #760389 0.68%, #0a81c0 99.81%);
 }
 
-.exclusive-tag {
+.exclusive-tag span {
   background: linear-gradient(100deg, #FF0120 0.68%, #0A81C0 99.81%);
 }
 
