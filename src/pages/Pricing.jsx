@@ -187,8 +187,8 @@ const Pricing = () => {
         </div>
       </div>
       <div className="flex justify-between items-center px-5 w-full">
-        <img src={robot1} alt="robot" />
-        <img src={robot2} alt="robot" />
+        <img src={robot1} alt="robot" className="w-4/12 md:w-2/12"/>
+        <img src={robot2} alt="robot" className="w-4/12 md:w-2/12"/>
       </div>
     </div>
   );
